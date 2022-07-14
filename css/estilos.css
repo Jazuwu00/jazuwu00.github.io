@@ -61,3 +61,11 @@ a:hover{
   color: rgb(46, 74, 150);
 }
 
+@media (min-width: 600px) {
+  #contentEstudios{
+    height:720px;
+    padding: 40px;
+    background-color: aliceblue;
+    margin-bottom:100px;
+  }
+}
