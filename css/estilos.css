@@ -13,16 +13,17 @@ body {
  padding: 40px;
  margin-bottom: 200px;
 }
-#contentExperiencia{
-   height:620px;
-  padding: 40px;
-}
+
 #contentEstudios{
-  height:920px;
+  height:820px;
   padding: 40px;
   margin-bottom:100px;
 }
-
+#contentSkills{
+  height:680px;
+  padding: 40px;
+  margin-bottom:100px;
+}
 #content i {font-size: 20px;
   color:#000000;
 }
@@ -63,11 +64,23 @@ a:hover{
   color: rgb(46, 74, 150);
 }
 
-@media (min-width: 600px) {
+@media (max-width: 580px) {
   #contentEstudios{
-    height:720px;
+    height:1150px;
     padding: 40px;
     background-color: aliceblue;
     margin-bottom:100px;
+   
   }
 }
+
+@media (max-width: 580px) {
+  #content{
+    height:850px;
+    padding: 40px;
+    background-color: aliceblue;
+    margin-bottom:100px;
+   
+  }
+}
+
