@@ -72,5 +72,15 @@ a:hover{
    
   }
 }                                             
+@media (max-width: 520px) {
+  #content{
+    height:1350px;
+    padding: 40px;
+    margin-bottom:100px;
+  }
+  #contentEstudios{
+    height:1150px;
+  }
+}                  
 
 
