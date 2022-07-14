@@ -64,31 +64,13 @@ a:hover{
   color: rgb(99, 106, 141);
 }
 
-@media (max-width: 580px) {
-  #contentEstudios{
-    height:1150px;
-    padding: 40px;
-    background-color: aliceblue;
-    margin-bottom:100px;
-   
-  }
-  #content{
-    height:850px;
-    padding: 40px;
-    background-color: aliceblue;
-    margin-bottom:100px;
-   
-  }
-}
-
-@media (max-width: 1580px) {
+@media (min-width: 720px) {
   #content{
     height:1050px;
     padding: 40px;
-    background-color: aliceblue;
     margin-bottom:100px;
    
   }
-}
+}                                             
 
 
