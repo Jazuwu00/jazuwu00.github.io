@@ -61,7 +61,7 @@ footer {
   }
 
 a:hover{
-  color: rgb(46, 74, 150);
+  color: rgb(99, 106, 141);
 }
 
 @media (max-width: 580px) {
@@ -72,9 +72,6 @@ a:hover{
     margin-bottom:100px;
    
   }
-}
-
-@media (max-width: 580px) {
   #content{
     height:850px;
     padding: 40px;
@@ -83,4 +80,15 @@ a:hover{
    
   }
 }
+
+@media (max-width: 1280px) {
+  #content{
+    height:1050px;
+    padding: 40px;
+    background-color: aliceblue;
+    margin-bottom:100px;
+   
+  }
+}
+
 
