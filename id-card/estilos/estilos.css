@@ -1,0 +1,67 @@
+*{
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* video de fondo*/
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+  }
+
+#main{
+    background-color: rgba(10, 10, 10, 0.747);
+    color: aliceblue;
+    max-width: 60rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 3rem 3rem;
+    margin-top: 10%;
+    box-shadow: 2px 1px 15px 6px rgba(139, 22, 143, 0.56);
+    -webkit-box-shadow: 2px 1px 20px 6px rgb(133, 39, 187);
+    -moz-box-shadow: 2px 1px 20px 6px rgba(248, 248, 248, 0.336);
+    border-radius: 30px;
+}
+h3,h5{
+    color: rgb(227, 191, 236);
+    text-shadow:rgb(191, 67, 223) 3px 0 20px!important;
+}
+#container {  
+    display: grid!important;
+    grid-template-columns: auto!important;
+    align-items: center!important;
+    justify-content: center!important;
+}
+
+#content i {
+    font-size: 20px;
+    
+}
+hr{
+    background-color: rgb(203, 146, 241);
+    text-align:inherit;
+    width: 60%;
+  	margin: 0 0% !important;
+  
+}
+a {
+    color: rgb(189, 143, 233)!important;
+}
+
+@media (max-width:950px){
+    p{
+        display:none!important;
+    }
+    #texto:before {
+        content: "Me llamo jazmin saravia, tengo 22 años y soy de Argentina, Buenos Aires.";
+    }
+#main {
+    margin-top: 15%;
+}
+
+}
